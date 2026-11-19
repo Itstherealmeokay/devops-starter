@@ -49,5 +49,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/devops-starter:latest
-            ghcr.io/${{ github.repository_owner }}/devops-starter:${{ github.sha }}
+            ghcr.io/itstherealmeokay/devops-starter:latest
+            ghcr.io/itstherealmeokay/devops-starter:${{ github.sha }}
